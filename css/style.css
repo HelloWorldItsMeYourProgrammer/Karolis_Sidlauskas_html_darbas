@@ -1,0 +1,26 @@
+.header {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+}
+
+.logo {
+    display: inline-block;
+    padding: 1rem 0.5rem;
+    width: 50%;
+}
+
+.main-nav__item {
+    display: none;
+}
+
+.main-nav__bars {
+    color: #999999;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
