@@ -50,8 +50,9 @@
     align-items: center;
 }
 
-main {
+hero {
     display: flex;
+    margin-bottom: 20%
 }
 
 .text__item {
@@ -88,7 +89,30 @@ section p {
 
 button {
     border-radius: 100px;
+    background-color: #ffffff;
+    padding: 10% 20%;
+    font-weight: 600;
+    font-size: 20px;
+    border: thick solid;
+    border-left-color: linear-gradient(#FF3998, #FF3939) ;
 }
 
+.page2 {
+    background: rgb(255,83,166);
+    background: linear-gradient(70deg, rgba(255,83,166,1) 0%, rgba(255,94,94,1) 0%, rgba(255,168,119,1) 90%, rgba(215,255,235,1) 100%);
+    padding: 25% 0 5% 0;
+}
+.page2__text {
+    padding: 0 2rem;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+div p {
+    font-weight: 400;
+
+}
 
 
