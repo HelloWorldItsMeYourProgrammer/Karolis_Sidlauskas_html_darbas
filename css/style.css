@@ -142,6 +142,7 @@ div p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding-top: 10%;
 }
 
 /* figure {
@@ -151,10 +152,6 @@ div p {
     row-gap: 1rem;
     column-gap: 4rem;
 } */
-
-.companies {
-    padding-top: 10%;
-}
 
 figure img {
 padding-bottom: 10%;
@@ -293,6 +290,90 @@ padding: 1.5rem 0;
 .footer-upsell__text {
     padding: 0 6rem 0 0;
 
+}
+
+
+@media screen and (min-width: 428px) and (max-width:1280px) {
+    .main-nav__item {
+        display:inline-block;
+        padding: 0 3%;
+    }
+    .main-nav__bars {
+        display: none;
+    }
+    .main-nav {
+        width: 30%; 
+    }
+
+    .main-nav > a {
+        text-decoration: none;
+        color:#555555;
+        font-weight: 400;
+    }
+
+    .main-nav .main-nav__item1 {
+        color:#ff3998
+    }
+    .header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    body {
+        padding: 0 3rem;
+    }
+
+    .page2 {
+        background-image: url("../imgs/background.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding: 15% 0 5% 0;}
+
+    .page2__text {
+            padding: 0 2rem;
+        }
+    .companies {
+        padding-top:5%;
+    }
+    .opendoorPic {
+        display: flex;
+    }
+    .hero-container {
+        background: #ffffff;
+        background-image: url("../imgs/graphic.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 550px -20px;
+        padding: 0 7rem 0 2rem;
+    }
+    .text__item {
+        padding-right: 40%;
+    }
+    .text__item2 {
+        font-weight: 900;
+        font-size: 6rem;
+    }
+    .text__item3 {
+        font-size: 1.4rem;
+    }
+    .footer-upsell {
+        background-image: url("../imgs/upsell-footer-image.svg");
+
+        background-repeat: no-repeat;
+        background-position: 800px 105px;
+        background-size: 15%;
+    }
+    .footer-upsell__item3 {
+        color: #555555;
+        font-size: 1.1rem;
+        max-width: 90%;
+
+    }
+    .footer-upsell__text {
+        max-width: 60%;
+    }
 }
 
 
