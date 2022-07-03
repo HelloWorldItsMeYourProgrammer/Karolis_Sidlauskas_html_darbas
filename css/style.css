@@ -47,7 +47,7 @@
 
 hero {
     display: flex;
-    margin-bottom: 20%
+
 }
 
 .text__item {
@@ -76,11 +76,12 @@ hero {
 
 .hero-container {
     background: #ffffff;
-    /* background-image: url("../imgs/graphic.png");
+    background-image: url("../imgs/graphic.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 200px -50px; */
+    background-position: 200px -50px;
     padding: 0 7rem 0 2rem;
+    
 }
 
 /* .heroImg {
@@ -109,6 +110,7 @@ button {
     font-weight: 600;
     font-size: 20px;
     border-style: none;
+    margin-bottom: 28%
 }
 button div {
     /* box-sizing: border-box; */
@@ -215,6 +217,8 @@ p span {
 
 hr {
     min-width: 428px;
+    margin: 0;
+    color: #999999;
 }
 
 .footer {
@@ -270,8 +274,6 @@ padding: 1.5rem 0;
     width: 4rem;
     color:#555555;
     text-decoration: none;
-
-    
 }
 
 .ExclusiveNFTCollection {
@@ -280,7 +282,18 @@ padding: 1.5rem 0;
     color:#555555;
 }
 
+.footer-upsell {
+    background-image: url("../imgs/upsell-footer-image.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 250px 100px;
+    background-size: 50%;
+}
 
+.footer-upsell__text {
+    padding: 0 6rem 0 0;
+
+}
 
 
 
