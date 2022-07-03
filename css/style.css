@@ -37,7 +37,6 @@
 
 .main-nav__bars {
     color: #999999;
-    ;
 }
 
 .header .container {
@@ -55,19 +54,20 @@ hero {
     padding-top: 3rem;
 }
 
-.launchtext__item {
+.text__item1 {
     font-weight: 700;
     font-size: 1rem;
     color: #ff3998;
     letter-spacing: 0.1em;
 }
-h1 {
+
+.text__item2 {
     font-weight: 900;
     font-style: normal;
     font-size: 3rem;
 }
 
-section p {
+.text__item3 {
     font-weight: 400;
     font-style: normal;
     font-size: 1.3rem;
@@ -83,13 +83,20 @@ section p {
     padding: 0 7rem 0 2rem;
 }
 
+/* .heroImg {
+    width: 100px;
+    flex-shrink: 0;
+    object-fit: contain;
+} */
+
 hero img {
     position: absolute;
-    width: 450px;
+    width: 500px;
     /* max-width: 120%; */
-    left: 42%;
+    left: 43%;
     /* min-width: 500px; */
     top: 4%;
+
 }
 
 button {
@@ -157,9 +164,61 @@ width: 8.5rem;
 overflow: hidden;
 }
 
+.page3 {
+    padding: 0 2rem;
+}
+
+section h2 {
+    font-weight: 500;
+}
+
+.page3__text2 {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3rem;
+    line-height: 150%;
+    color: #555555;
+}
+
+p span {
+ text-decoration: underline ;
+}
+
+.opendoorPic {
+    display:none;
+}
+
+.footer-upsell {
+    padding: 0 7rem 0 2rem;
+    display: flex;
+}
+.footer-upsell__item1 {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #ff3998;
+    letter-spacing: 0.1em;
+}
+
+.footer-upsell__item2 {
+    font-weight: 900;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+.footer-upsell__item3 {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3rem;
+    line-height: 150%;
+}
 
 
+hr {
+    min-width: 428px;
+}
 
+.footer__logos {
+}
 
 
 
